@@ -1,30 +1,53 @@
-.h1{
-  font-size: 2em;
-  font-family: 'praise', sans-serif;
-  }
-
-
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 120%;
+    font-family: Arial, sans-serif;
+    font-size:18px;
+}
+header{
+    background-color:#f8c8dc;
+}
+nav{
+    background-color:#d8bfd8;
+}
+main{
+    background-color:#fff0f5;
+    font-size:18px;
+}
+footer{
+    background-color:#e6ccff;
+}
+li{
+    display:inline-block;
+    width:180px;
+}
+h1{
+    text-align:center;
+    font-family:Georgia, serif;
+    color:purple;
+}
+p{
+    line-height:1.8;
+}
+div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:left;
+    gap:10px;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8c8dc;
+    padding: 10px;
 }
 
 .footer {
-    background-color: gray;
-    background-size :; 
-    padding: 20px;
+    width: 100%;
+    background-color: #e6ccff;
+    padding: 10px;
+    
 }
 
-nav ul {
-    display: flex;      /* Hiển thị các mục trên một hàng */
-    list-style: none;   /* Bỏ dấu chấm đầu dòng */
-    padding: 0;
-    margin: 0;
-    gap: 20px;          /* Khoảng cách giữa các mục */
+.box{
+    margin-bottom: 20px;
 }
-
-nav a {
-    color: black;
-}
-
-
